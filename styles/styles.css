@@ -9,6 +9,14 @@
   font-optical-sizing: auto;
 }
 
+.secondary-text-color {
+  color: #30b868;
+}
+
+.primary-text-color {
+  color: #ffffff;
+}
+
 .btn-primary {
   color: #ffffff;
   background-color: #469165;
@@ -16,18 +24,67 @@
   padding: 12.5px 16px;
   border: none;
   border-radius: 4px;
+  font-size: 16px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .btn-primary:hover {
   background-color: #387250;
 }
 
+.btn-secondary {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-weight: 600;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff5b;
+}
+
+.pill {
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  color: #469165;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.pill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pill-icon img {
+  width: 16px;
+  vertical-align: middle;
+}
+
 #nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 16px 120px;
+  padding: 16px 0;
   background-color: #ffffff;
 }
 
@@ -45,8 +102,45 @@
 #nav-links a {
   text-decoration: none;
   color: black;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #nav-links a:hover {
   color: #469165;
+}
+
+#banner-section {
+  background: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1600/674;
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner-content {
+  margin: 115px auto 180px;
+}
+
+#banner-section h1 {
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#banner-description {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#banner-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
 }
