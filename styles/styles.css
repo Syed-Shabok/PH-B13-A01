@@ -205,6 +205,7 @@
 }
 
 #brain-section {
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,4 +245,29 @@
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+#access-section {
+  width: 85%;
+  background-color: #f7f6f2;
+  text-align: center;
+  margin: 0 auto;
+  padding: 80px 40px;
+  border-radius: 12px;
+}
+
+#access-section h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+#access-section p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#access-section button {
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
